@@ -1,0 +1,13 @@
+set ARG= 
+
+set ARG=%ARG% C:\xxx\zenrin_3d_map_sample\shibuya_city_archicad\平面直角座標版（原点オフセット）\XY9\005339_07899_-5_1\005339_07899_-5_1_Train_00.3ds 0.01 -100 0 0
+set ARG=%ARG% C:\xxx\zenrin_3d_map_sample\shibuya_city_infraworks\平面直角座標版\XY9\005339_07899_-5_1\005339_07899_-5_1_FootBridge.fbx 1 12000 0 -38000
+
+@rem set ARG=%ARG% C:\xxx\aaa.3ds
+@rem set ARG=%ARG% C:\xxx\bbb.3ds
+@rem set ARG=%ARG% C:\xxx\ccc.fbx
+@rem set ARG=%ARG% C:\xxx\ddd.fbx
+
+
+TestVisualize_composite_fbx_3ds.exe %ARG%
+pause

@@ -1,0 +1,11 @@
+set BASEDIR=C:\xxx\
+set ARG=
+
+@rem set ARG=%ARG% %BASEDIR%aaa.3ds
+@rem set ARG=%ARG% %BASEDIR%bbb.3ds
+@rem set ARG=%ARG% %BASEDIR%ccc.fbx
+@rem set ARG=%ARG% %BASEDIR%ddd.fbx
+
+CountNumPolygons.exe %ARG%
+pause
+

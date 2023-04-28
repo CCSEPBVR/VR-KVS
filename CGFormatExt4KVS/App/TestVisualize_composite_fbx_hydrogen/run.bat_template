@@ -1,0 +1,4 @@
+set ARG=C:\xxx\zenrin_3d_map_sample\shibuya_city_infraworks\ïΩñ íºäpç¿ïWî≈\XY9\005339_07899_-5_1\005339_07899_-5_1_Road.fbx 0.05 600 10 -1900
+
+TestVisualize_composite_fbx_hydrogen.exe %ARG%
+pause

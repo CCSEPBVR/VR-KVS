@@ -1,0 +1,16 @@
+#
+# library path definotion file for kvsmake
+#
+
+FBX_SDK_DIR ="C:\Program Files\Autodesk\FBX\FBX SDK\2019.5"
+ASSIMP_DIR =C:\xxx\assimp-5.0.0
+
+
+FBX_SDK_INC_PATH = /I$(FBX_SDK_DIR)/include
+FBX_SDK_LIB_PATH = /LIBPATH:$(FBX_SDK_DIR)/lib/vs2017/x64/release
+FBX_SDK_LIBS = libfbxsdk-mt.lib libxml2-mt.lib zlib-mt.lib 
+
+ASSIMP_INC_PATH = /I$(ASSIMP_DIR)/include /I$(ASSIMP_DIR)/include
+ASSIMP_LIB_PATH = /LIBPATH:$(ASSIMP_DIR)/BINARIES/x64/code/Release
+ASSIMP_LIBS = assimp-vc141-mt.lib 
+
